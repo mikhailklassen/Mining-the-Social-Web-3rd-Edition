@@ -1,0 +1,156 @@
+{
+ "nodes": [
+  {
+   "title": "From an article about Walmart, their move to pay more, and the lessons for the broader economy: http...",
+   "url": "https://plus.google.com/+TimOReilly/posts/bqErtyYp6co",
+   "idx": 0
+  },
+  {
+   "title": "Nassau, The Bahamas Airport Travel Advice\n\nIf anyone happens to travel to Nassau, the Bahamas, I thought...",
+   "url": "https://plus.google.com/+TimOReilly/posts/dpQDew7sPbu",
+   "idx": 1
+  },
+  {
+   "title": "Amazing story about digital transformation http://www.codeforamerica.org/blog/2015/11/30/a-new-approach...",
+   "url": "https://plus.google.com/+TimOReilly/posts/BRmKh2ycaPe",
+   "idx": 2
+  },
+  {
+   "title": "\"Surely Democrats and Republicans could agree to cut billions from a failed program like this!\" you ...",
+   "url": "https://plus.google.com/+TimOReilly/posts/1Lcxb3b8VPH",
+   "idx": 3
+  },
+  {
+   "title": "How fragile life is, even for the best of us. We heard this morning that our friend Jake Brewer was ...",
+   "url": "https://plus.google.com/+TimOReilly/posts/jV8jeKeWWyf",
+   "idx": 4
+  },
+  {
+   "title": "My dear friend Carolyn Shapiro does amazing projects that help communities understand their history,...",
+   "url": "https://plus.google.com/+TimOReilly/posts/F1E8rsm3URP",
+   "idx": 5
+  },
+  {
+   "title": "Absolutely fascinating exploration of the microbiome of a city.\n\nFor those who don't know what the microbiome...",
+   "url": "https://plus.google.com/+TimOReilly/posts/7EaHeYc1BiB",
+   "idx": 6
+  },
+  {
+   "title": "This was my favorite piece in this Sunday's New York Times. It's a fascinating article about CBW, a ...",
+   "url": "https://plus.google.com/+TimOReilly/posts/VsvsS9nagtU",
+   "idx": 7
+  },
+  {
+   "title": "The 10-year contract for the US recreation.gov site \u00a0is up for renewal, and the Department of the Interior...",
+   "url": "https://plus.google.com/+TimOReilly/posts/cmjFvKC5S9v",
+   "idx": 8
+  },
+  {
+   "title": "Can We Use Data to Make Better Regulations?\n\nEvgeny Morozov either misunderstands or misrepresents the...",
+   "url": "https://plus.google.com/+TimOReilly/posts/gboAUahQwuZ",
+   "idx": 9
+  },
+  {
+   "title": "Work on sh-t that matters, aka Poo Camp\n\nToday was the annual chicken coop poo cleanup. (The chickens...",
+   "url": "https://plus.google.com/+TimOReilly/posts/3vTSVs6CcdY",
+   "idx": 10
+  },
+  {
+   "title": "Who will build the \u201cgod platform\u201d for the Internet of Things?\n\nThe idea that everyone will have a separate...",
+   "url": "https://plus.google.com/+TimOReilly/posts/fTnKQCQdikp",
+   "idx": 11
+  },
+  {
+   "title": "If we are going to transform government, we need both an inside game and an outside game.\n\nThe inside...",
+   "url": "https://plus.google.com/+TimOReilly/posts/WySK63oPskZ",
+   "idx": 12
+  },
+  {
+   "title": "Why Common Core is Like Healthcare.gov\n\nDraw a bold line between this piece on the failure of the Common...",
+   "url": "https://plus.google.com/+TimOReilly/posts/XebEgwjhV35",
+   "idx": 13
+  },
+  {
+   "title": "\u00a0+Maria Konnikova's NY Times article about the role of time and attention scarcity in the cycle of poverty...",
+   "url": "https://plus.google.com/+TimOReilly/posts/4qHJZJU6Dtb",
+   "idx": 14
+  }
+ ],
+ "links": [
+  {
+   "source": 0,
+   "target": 3,
+   "score": 0.36809238188791626
+  },
+  {
+   "source": 1,
+   "target": 4,
+   "score": 0.2710928089008091
+  },
+  {
+   "source": 2,
+   "target": 13,
+   "score": 0.5975743584554669
+  },
+  {
+   "source": 3,
+   "target": 9,
+   "score": 0.8001636754831161
+  },
+  {
+   "source": 4,
+   "target": 14,
+   "score": 0.4692980969130066
+  },
+  {
+   "source": 5,
+   "target": 0,
+   "score": 0.761696979469662
+  },
+  {
+   "source": 6,
+   "target": 9,
+   "score": 0.7398707049651956
+  },
+  {
+   "source": 7,
+   "target": 12,
+   "score": 0.3969208924171672
+  },
+  {
+   "source": 8,
+   "target": 3,
+   "score": 0.7710749085667039
+  },
+  {
+   "source": 9,
+   "target": 3,
+   "score": 0.12197666050798561
+  },
+  {
+   "source": 10,
+   "target": 9,
+   "score": 0.47808613973617287
+  },
+  {
+   "source": 11,
+   "target": 7,
+   "score": 0.6236710066140916
+  },
+  {
+   "source": 12,
+   "target": 7,
+   "score": 0.5073492071573392
+  },
+  {
+   "source": 13,
+   "target": 3,
+   "score": 0.23727950335042636
+  },
+  {
+   "source": 14,
+   "target": 7,
+   "score": 0.9702482053903546
+  }
+ ]
+}

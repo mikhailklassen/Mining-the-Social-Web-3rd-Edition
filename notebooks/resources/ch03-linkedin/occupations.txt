@@ -1,0 +1,255 @@
+Account Collector
+Accounting Specialist
+Adjustment Clerk
+Advertising Account Executive
+Advertising Agency Coordinator
+Aerospace Engineering Technician
+Agricultural Engineer
+Agricultural Inspector
+Agricultural Technician
+Air Crew Member
+Air Crew Officer
+Air Traffic Controller
+Aircraft Mechanic
+Airline Flight Attendant
+Alumni Relations Coordinator
+Anesthesiologist
+Animal Scientist
+Art Appraiser
+Art Director
+Art Restorer
+Art Therapist
+Athletic Coach
+Automobile Mechanic
+Bank Manager
+Bank Examiner
+Bank Teller
+Biology Professor
+Biomedical Engineer
+Book Editor
+Budget Analyst
+Building Inspector
+Cardiologist
+Certified Public Accountant 
+Chaplain
+Chemical Engineer
+Chemical Equipment Operator
+Chemical Plant Operator
+Chemical Technicians
+Chemistry Professor
+Chief Financial Officer
+Chief Executive Officer
+Chief Operating Officer
+Chief Information Officer
+Child Care Worker
+Child Support Services Worker
+Civil Engineer
+Clinical Dietitian
+Clinical Psychologist
+Commercial Designer
+Commercial Diver
+Commercial Fisherman
+Communications Professor
+Community Health Nurse
+Community Organization Worker
+Community Welfare Worker
+Computer Aided Design (CAD) Technician
+Computer Hardware Technician
+Computer Operators
+Computer Programmer
+Computer Science Professor
+Computer Security Specialist
+Computer Software Engineers
+Computer Software Technician
+Computer Systems Engineer
+Construction Laborer
+Construction Manager
+Copy Writer
+Corporation Lawyer
+Criminal Lawyer
+Database Administrator
+Dental Assistant
+Dental Hygienist
+Dentist
+Dermatologist
+Educational Administrator
+Educational Psychologist
+Electrical Engineer
+Elementary School Administrator
+Elementary School Teacher
+Engineer
+Engineering Managers
+Environmental Engineer
+Environmental Planner
+Environmental Research Analyst
+Environmental Science Technician
+Environmental Science Professsor
+Environmental Technician
+Executive Secretary
+Factory Layout Engineer
+Family Caseworker
+Family Practitioner
+Fashion Artist
+Fashion Designer
+Fashion Model
+Field Contractor
+File Clerk
+Film Editor
+Finance Manager
+Financial Aid Counselor
+Financial Analyst
+Financial Planner
+Financial Services Sales Agent
+Fine Artist
+Fire Inspector
+Fire Prevention Engineer
+Fire Protection Engineer
+Fitness Trainer
+Floral Designer
+Foreign Exchange Trader
+Foreign Language Interpreter
+Foreign Language Translator
+Funeral Director
+Government Service Executives
+Graduate Teaching Assistant
+Graphic Designer
+Gynecologist
+High School Administrator
+High School Guidance Counselor
+High School Teacher
+Historical Archivist
+Home Health Aide
+Hospital Administrator
+Hospital Nurse
+Hotel Manager
+Human Resources Management Advisor
+Industrial Designer
+Industrial Engineer
+Insurance Agent
+IT Administrator
+Kindergarten Teacher
+Landscape Architect
+Law Clerk
+Law Professor
+Library Assistant
+Maintenance Supervisor
+Makeup Artist
+Management Consultant
+Marine Architect
+Marine Surveyor
+Market Research Analyst
+Marketing Managers
+Marking Clerk
+Massage Therapist
+Materials Engineer
+Materials Scientist
+Math Professor
+Mechanical Engineer
+Mechanical Inspector
+Medical Assistant
+Medical Insurance Claims Analyst
+Medical Laboratory Technician
+Medical Records Administrator
+Medical Records Technician
+Medical Secretary
+Medical Technologist
+Medical Transcriptionist
+Mental Health Counselor
+Metal Fabricator
+Middle School Administrator
+Middle School Guidance Counselor
+Middle School Teacher
+Motor Vehicle Inspector
+Museum Curator
+Music Director
+Music Teacher
+Music Therapist
+Newspaper Editor
+Nuclear Engineer
+Nuclear Medicine Technologist
+Nuclear Technicians
+Nurse Practitioner
+Nursery Worker
+Occupational Therapist
+Office Clerk
+Office Supervisor
+Ophthalmologist
+Orthodontist
+Patent Agent
+Patent Lawyer
+Pediatric Dentist
+Pediatrician
+Personal Service Supervisor
+Personnel Administrator
+Personnel Assistant
+Personnel Recruiter
+Pest Control Workers
+Petroleum Engineer
+Petroleum Geologist
+Photographer
+Physical Education Instructor
+Physical Therapist
+Physics Professor
+Pilot
+Plastic Surgeon
+Plumber
+Police Officer
+Preschool Teacher
+Probate Lawyer
+Probation Officer
+Professor
+Product Safety Engineer
+Property Managers
+Psychiatrist
+Publications Editor
+Purchasing Manager
+Quality Control Engineer
+Radiologist
+Real Estate Assessor
+Real Estate Broker
+Real Estate Sales Agent
+Respiratory Therapist
+Restaurant Manager
+Retail Inventory Control Analyst
+Retail Sales Department Supervisor
+Retail Salespersons
+Retail Store Manager
+Safety Inspector
+Sales Manager
+Sales Representitive
+School Nurse
+School Psychologist
+Screen Writer
+Securities Broker
+Self-Employed
+Set Designer
+Social Psychologist
+Social Service Volunteer
+Social Welfare Administrator
+Social Worker
+Sociology Professor
+Soil Engineer
+Soil Scientist
+Sound Engineering Technicians
+Speech Pathologist
+Structural Engineer
+Surgeon
+Systems Analyst
+Tax Accountant
+Tax Auditor
+Tax Lawyer
+Technical Director
+Transportation Attendants
+Travel Agent
+Treasurer
+Ultrasound Technologist
+Veterinarian
+Video Engineer
+Waiter
+Warehouse Stock Clerk
+Welder
+Wholesale Buyers
+Wildlife Biologist
+Woodworking Machine Operators
+Writer
+Zoologist

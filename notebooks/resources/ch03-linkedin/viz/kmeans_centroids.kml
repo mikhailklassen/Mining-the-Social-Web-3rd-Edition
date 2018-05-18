@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_2369">
+        <Placemark id="feat_2370">
+            <name>Cluster 0</name>
+            <Point id="geom_2360">
+                <coordinates>-88.75772909999999,35.952907,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2371">
+            <name>Cluster 1</name>
+            <Point id="geom_2361">
+                <coordinates>-95.4831109,30.09910319999999,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2372">
+            <name>Cluster 2</name>
+            <Point id="geom_2362">
+                <coordinates>-121.9232041,37.3875909,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2373">
+            <name>Cluster 3</name>
+            <Point id="geom_2363">
+                <coordinates>-87.8901097,42.1567624,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2374">
+            <name>Cluster 4</name>
+            <Point id="geom_2364">
+                <coordinates>-73.994609,40.7591001,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2375">
+            <name>Cluster 5</name>
+            <Point id="geom_2365">
+                <coordinates>-82.5509302,34.0916692,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2376">
+            <name>Cluster 6</name>
+            <Point id="geom_2366">
+                <coordinates>-104.98622825,39.707049000000005,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2377">
+            <name>Cluster 7</name>
+            <Point id="geom_2367">
+                <coordinates>-95.98745355,36.30912095,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2378">
+            <name>Cluster 8</name>
+            <Point id="geom_2368">
+                <coordinates>-94.5158099,38.9086862,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_2379">
+            <name>Cluster 9</name>
+            <Point id="geom_2369">
+                <coordinates>-83.4441372,40.1438288,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
