@@ -107,7 +107,7 @@ USER $NB_UID
 
 # Install facets which does not have a pip or conda package at the moment
 RUN cd /tmp && \
-    git clone https://github.com/PAIR-code/facets.git && \
+    git clone https://github.com/mikhailklassen/facets.git && \
     cd facets && \
     jupyter nbextension install facets-dist/ --sys-prefix && \
     cd && \
