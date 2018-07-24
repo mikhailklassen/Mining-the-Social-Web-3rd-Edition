@@ -1,4 +1,4 @@
-# Mining-the-Social-Web-3rd-Edition
+# Mining the Social Web, 3rd Edition
 
 The official online compendium for Mining the Social Web, 3rd Edition (O'Reilly, 2018). The `notebooks` folder of this repository contains the latest bug-fixed sample code used in the book chapters.
 
