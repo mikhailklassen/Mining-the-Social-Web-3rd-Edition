@@ -8,10 +8,10 @@ LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 USER root
 
 # libav-tools for matplotlib anim
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends libav-tools && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+#RUN apt-get update && \
+#    apt-get install -y --no-install-recommends libav-tools && \
+#    apt-get clean && \
+#    rm -rf /var/lib/apt/lists/*
 
 # Install Java
 RUN apt-get update && apt-get install -yq default-jdk
@@ -90,30 +90,15 @@ RUN pip install -q python-instagram==1.3.2 \
 RUN pip install -q charade
 RUN pip install -q boilerpipe3 
 
-USER root
-
-# Install MongoDB
-RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
-RUN apt-get install -y apt-transport-https ca-certificates
-
-# Create a list file for MongoDB
-RUN echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
-
-# Install MongoDB and start MongoDB service
-RUN apt-get update && apt-get install -y mongodb && apt-get install -y mongodb-org
-RUN service mongodb start
-
-USER $NB_UID
-
 # Install facets which does not have a pip or conda package at the moment
-RUN cd /tmp && \
-    git clone https://github.com/mikhailklassen/facets.git && \
-    cd facets && \
-    jupyter nbextension install facets-dist/ --sys-prefix && \
-    cd && \
-    rm -rf /tmp/facets && \
-    fix-permissions $CONDA_DIR && \
-    fix-permissions /home/$NB_USER
+#RUN cd /tmp && \
+#    git clone https://github.com/mikhailklassen/facets.git && \
+#    cd facets && \
+#    jupyter nbextension install facets-dist/ --sys-prefix && \
+#    cd && \
+#    rm -rf /tmp/facets && \
+#    fix-permissions $CONDA_DIR && \
+#    fix-permissions /home/$NB_USER
 
 # Import matplotlib the first time to build the font cache.
 ENV XDG_CACHE_HOME /home/$NB_USER/.cache/
