@@ -48,9 +48,9 @@ mtsw3e                latest              326387cea398
 
 The last step is to launch a Docker container running your image:
 ```
-docker run -it --rm -p 8888:8888 mtsw3e --name mtsw
+docker run -it --rm -p 8888:8888 mtsw3e
 ```
-The added `-it` flags will maintain an interactive terminal connection to the running container. `--rm` will cause the container to be deleted on exit (but not the image). The `-p 8888:8888` tag maps port 8888 on your operating system to port 8888 inside the container,  and `--name mtsw` just gives the container a friendly name.
+The added `-it` flags will maintain an interactive terminal connection to the running container. `--rm` will cause the container to be deleted on exit (but not the image). The `-p 8888:8888` tag maps port 8888 on your operating system to port 8888 inside the container.
 
 Lastly, open a web browser and navigate to [http://localhost:8888][http://localhost:8888]. You should see a Jupyter Notebook server running and a list of all the Jupyter Notebooks that are a part of this repository.
 
