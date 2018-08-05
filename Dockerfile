@@ -26,6 +26,7 @@ RUN conda install --quiet --yes \
     'blas=*=openblas' \
     'ipywidgets=7.2*' \
     'pandas=0.22*' \
+    'flask=0.12.2' \
     'numexpr=2.6*' \
     'matplotlib=2.1*' \
     'scipy=1.0*' \
@@ -116,13 +117,14 @@ RUN python -m nltk.downloader -d /usr/local/share/nltk_data vader_lexicon \
                                                             punkt \
                                                             averaged_perceptron_tagger
 
+# Install X Virtual Framebuffer
 RUN apt-get install -y xvfb
 #ENV DISPLAY=:0
 USER $NB_UID
 
 # Load all the sample code and resources for Mining the Social Web, 3rd Edition
 RUN rm -rf /home/$NB_USER/work
-COPY notebooks /home/$NB_USER/notebooks/
+#COPY notebooks /home/$NB_USER/notebooks/
 COPY matplotlibrc /home/$NB_USER/.config/matplotlib/
 
 USER root
