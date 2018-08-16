@@ -86,7 +86,8 @@ RUN pip install -q python-instagram==1.3.2 \
                    networkx==1.11 \
                    pymongo==3.6.1 \
                    twitter-text==3.0 \
-                   twitter==1.17.1
+                   twitter==1.17.1 \
+                   envoy==0.0.3
 
 RUN pip install -q charade
 RUN pip install -q boilerpipe3 
