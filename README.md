@@ -56,13 +56,15 @@ REPOSITORY            TAG                 IMAGE ID
 mtsw3e                latest              326387cea398
 ```
 
-The last step is to launch a Docker container running your image:
+The last step is to run `docker-compose`, which will launch the container we just built and connect it to a MongoDB database running in a separate container, which is needed for some of the code examples  
 ```
-docker run -it --rm -p 8888:8888 mtsw3e
+$ docker-compose up
 ```
-The added `-it` flags will maintain an interactive terminal connection to the running container. `--rm` will cause the container to be deleted on exit (but not the image). The `-p 8888:8888` tag maps port 8888 on your operating system to port 8888 inside the container.
 
-Lastly, open a web browser and navigate to [http://localhost:8888][http://localhost:8888]. You should see a Jupyter Notebook server running and a list of all the Jupyter Notebooks that are a part of this repository.
+The output will look something like this:
+![](images/docker_up.png)
+
+You will see the instruction on the screen to copy/paste the URL into your web browser's search bar. If you do this, you should see a Jupyter Notebook server running and a list of all the Jupyter Notebooks that are a part of this repository.
 
 ## Requirements
 
