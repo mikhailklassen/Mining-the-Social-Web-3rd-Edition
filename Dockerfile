@@ -132,3 +132,4 @@ USER root
 RUN chown $NB_UID:users /home/$NB_USER -R
 RUN chmod 755 /home/$NB_USER -R
 USER $NB_UID
+
