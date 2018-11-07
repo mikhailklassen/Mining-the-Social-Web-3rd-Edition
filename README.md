@@ -46,7 +46,7 @@ context canceled
 ```
 If this happens to you, disable the experimental features by unchecking the option in your Docker preferences.
 
-<insert image here>
+![][images/docker_disable_experimental_features.png]
 
 Once you've built the image you should see it in your list of images:
 ```
