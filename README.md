@@ -38,7 +38,17 @@ docker build -t mtsw3e .
 ```
 This will "tag" your image with the name `mtsw3e`. Building the image will take some time. The Docker client has to download a base image and then install all of the dependencies. You will only need to do this once, provided you don't delete the image from your computer.
 
-You should see the image in your list of images:
+Some users report the following error (noted on MacOS):
+```
+$ docker build -t mtsw3e .
+ERRO[0000] failed to dial gRPC: unable to upgrade to h2c, received 502 
+context canceled
+```
+If this happens to you, disable the experimental features by unchecking the option in your Docker preferences.
+
+<insert image here>
+
+Once you've built the image you should see it in your list of images:
 ```
 $ docker image ls
 
