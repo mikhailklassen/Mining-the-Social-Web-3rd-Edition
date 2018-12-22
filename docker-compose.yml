@@ -21,6 +21,7 @@ services:
         - ./notebooks/:/home/jovyan/notebooks:rw
     ports:
         - 8888:8888
+        - 5000:5000
     command: /opt/conda/bin/jupyter notebook --port=8888 --no-browser
 
 networks:
