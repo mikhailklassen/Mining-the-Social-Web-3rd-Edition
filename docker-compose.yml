@@ -11,7 +11,8 @@ services:
     command: mongod --bind_ip 127.0.0.1,172.16.0.1
     
   mtsw:
-    build: .
+    build: . 
+    image: mikhailklassen/mining-the-social-web-3rd-edition
     networks:
       mongo_net:
     depends_on:
@@ -20,6 +21,7 @@ services:
         - ./notebooks/:/home/jovyan/notebooks:rw
     ports:
         - 8888:8888
+    command: /opt/conda/bin/jupyter notebook --port=8888 --no-browser
 
 networks:
   mongo_net:
