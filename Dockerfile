@@ -7,12 +7,6 @@ LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
 USER root
 
-# libav-tools for matplotlib anim
-#RUN apt-get update && \
-#    apt-get install -y --no-install-recommends libav-tools && \
-#    apt-get clean && \
-#    rm -rf /var/lib/apt/lists/*
-
 # Install Java
 RUN apt-get update && apt-get install -yq default-jdk
 RUN update-alternatives --config java
@@ -53,9 +47,6 @@ RUN conda install --quiet --yes \
     conda clean -tipsy && \
     # Activate ipywidgets extension in the environment that runs the notebook server
     jupyter nbextension enable --py widgetsnbextension --sys-prefix && \
-    # Also activate ipywidgets extension for JupyterLab
-    #jupyter labextension install @jupyter-widgets/jupyterlab-manager@^0.35 && \
-    #jupyter labextension install jupyterlab_bokeh@^0.5.0 && \
     npm cache clean --force && \
     rm -rf $CONDA_DIR/share/jupyter/lab/staging && \
     rm -rf /home/$NB_USER/.cache/yarn && \
@@ -92,16 +83,6 @@ RUN pip install -q python-instagram==1.3.2 \
 RUN pip install -q charade
 RUN pip install -q boilerpipe3 
 
-# Install facets which does not have a pip or conda package at the moment
-#RUN cd /tmp && \
-#    git clone https://github.com/mikhailklassen/facets.git && \
-#    cd facets && \
-#    jupyter nbextension install facets-dist/ --sys-prefix && \
-#    cd && \
-#    rm -rf /tmp/facets && \
-#    fix-permissions $CONDA_DIR && \
-#    fix-permissions /home/$NB_USER
-
 # Import matplotlib the first time to build the font cache.
 ENV XDG_CACHE_HOME /home/$NB_USER/.cache/
 RUN MPLBACKEND=Agg python -c "import matplotlib.pyplot" && \
@@ -125,11 +106,9 @@ USER $NB_UID
 
 # Load all the sample code and resources for Mining the Social Web, 3rd Edition
 RUN rm -rf /home/$NB_USER/work
-#COPY notebooks /home/$NB_USER/notebooks/
 COPY matplotlibrc /home/$NB_USER/.config/matplotlib/
 
 USER root
 RUN chown $NB_UID:users /home/$NB_USER -R
 RUN chmod 755 /home/$NB_USER -R
 USER $NB_UID
-
