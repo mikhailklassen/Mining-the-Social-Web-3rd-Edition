@@ -93,6 +93,13 @@ http://127.0.0.1:8888/?token=9f568d96a24a950fb9525ee2746fcdd1c04e035122067be3
 
 If you do this, you should see a Jupyter Notebook server running and a list of all the Jupyter Notebooks that are a part of this repository.
 
+When you are down working with the sample code, shut down the container as follows: hit `CTRL-C` in the terminal window where your app is running to interrupt Docker. Next, type
+```
+docker-compose down
+```
+
+This performs a clean shutdown of any infrastructure set up by Docker and stops all running containers.
+
 ## Requirements
 
 If you just to run the sample code on your own machine outside of any Docker container, you will need to install all the requirements yourself.
