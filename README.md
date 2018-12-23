@@ -4,7 +4,15 @@ The official code repository for Mining the Social Web, 3rd Edition (O'Reilly, 2
 
 ## Quickstart
 
-There are several ways to get up and running with the sample code in MTSW, which we detail in this section.
+There are several ways to get up and running with the sample code in MTSW, which we detail in this section, or you can follow along with the youtube video below:
+
+#### Mac OS
+
+[Geting Started (Mac OS)](https://www.youtube.com/watch?v=OZunBKFIdLU)
+
+#### Windows
+
+*Coming Soon!*
 
 ### Step 1: Cloning or Downloading the Repository
 
