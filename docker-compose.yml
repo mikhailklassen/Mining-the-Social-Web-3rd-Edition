@@ -12,7 +12,7 @@ services:
     
   mtsw:
     build: . 
-    image: mikhailklassen/mining-the-social-web-3rd-edition
+    image: mtsw3e 
     networks:
       mongo_net:
     depends_on:
