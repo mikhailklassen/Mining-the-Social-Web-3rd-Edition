@@ -22,7 +22,7 @@ The authors recommend using Docker. You won't have to worry about which operatin
 
 ### Step 2: Installing Docker
 
-Visit the [Docker Store](https://store.docker.com/search?type=edition&offering=community) and download the free community edition of Docker Desktop for your operating system.
+Visit the [Docker Hub](https://hub.docker.com/search?q=&type=edition&offering=community) and download the free community edition of Docker Desktop for your operating system.
 
 > **NOTE** that versions of Mac OS previous to Sierra 10.12 or versions of Microsoft Windows previous to 10 Professional or Enterprise 64-bit will require that you install the [Docker Toolbox](https://docs.docker.com/toolbox/overview/) instead.
 
