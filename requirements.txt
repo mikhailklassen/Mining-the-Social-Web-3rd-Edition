@@ -27,7 +27,7 @@ envoy==0.0.3
 facebook-sdk==2.0.0
 fastcache==1.0.2
 feedparser==5.2.1
-Flask==0.12.2
+Flask==0.12.3
 geopy==1.11.0
 gmpy2==2.0.8
 google-api-python-client==1.6.6
@@ -100,7 +100,7 @@ python3-linkedin==1.0.1
 pytz==2018.7
 PyWavelets==1.0.1
 pyzmq==17.1.2
-requests==2.14.2
+requests==2.20.0
 requests-oauthlib==1.0.0
 rsa==4.0
 ruamel-yaml==0.15.71

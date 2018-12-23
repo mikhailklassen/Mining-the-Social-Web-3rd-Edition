@@ -20,7 +20,7 @@ RUN conda install --quiet --yes \
     'blas=*=openblas' \
     'ipywidgets=7.2*' \
     'pandas=0.22*' \
-    'flask=0.12.2' \
+    'flask=0.12.3' \
     'numexpr=2.6*' \
     'matplotlib=2.1*' \
     'scipy=1.0*' \
@@ -60,7 +60,7 @@ RUN pip install -q python-instagram==1.3.2 \
                    prettytable==0.7.2 \
                    Pillow==3.4.2 \
                    nltk==3.2.2 \
-                   requests==2.14.2 \
+                   requests==2.20.0 \
                    mailbox==0.4 \
                    facebook-sdk==2.0.0 \
                    python3-linkedin==1.0.1 \
