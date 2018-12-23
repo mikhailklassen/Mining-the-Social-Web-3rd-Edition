@@ -20,7 +20,6 @@ RUN conda install --quiet --yes \
     'blas=*=openblas' \
     'ipywidgets=7.2*' \
     'pandas=0.22*' \
-    'flask=0.12.3' \
     'numexpr=2.6*' \
     'matplotlib=2.1*' \
     'scipy=1.0*' \
@@ -75,6 +74,7 @@ RUN pip install -q python-instagram==1.3.2 \
                    pymongo==3.6.1 \
                    twitter-text==3.0 \
                    twitter==1.17.1 \
+                   flask==0.12.3 \
                    envoy==0.0.3
 
 RUN pip install -q charade
