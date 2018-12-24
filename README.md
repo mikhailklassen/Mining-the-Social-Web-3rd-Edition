@@ -2,6 +2,8 @@
 
 The official code repository for Mining the Social Web, 3rd Edition (O'Reilly, 2018). The `notebooks` folder of this repository contains the latest bug-fixed sample code used in the book chapters.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OZunBKFIdLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Quickstart
 
 There are several ways to get up and running with the sample code in MTSW, which we detail in this section, or you can follow along with the youtube video below:
