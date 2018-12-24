@@ -8,7 +8,7 @@ There are several ways to get up and running with the sample code in MTSW, which
 
 #### Mac OS
 
-[![Geting Started (Mac OS)](images/youtube_macos.png =800x)](http://www.youtube.com/watch?v=OZunBKFIdLU)
+[![Geting Started (Mac OS)](images/youtube_macos.png)](http://www.youtube.com/watch?v=OZunBKFIdLU)
 
 #### Windows
 
