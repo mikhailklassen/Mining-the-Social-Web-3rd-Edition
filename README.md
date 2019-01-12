@@ -108,6 +108,13 @@ docker-compose down
 
 This performs a clean shutdown of any infrastructure set up by Docker and stops all running containers.
 
+## Running the Application without Docker Compose
+
+If you're not interested in any of the MongoDB examples in Chapter 9, you can run the MTSW3e container by itself without needing to use `docker-compose`. To do so, run the command from within the repository's root directory:
+```
+docker run --rm -p 8888:8888 -v "$PWD"/notebooks:/home/jovyan/notebooks mtsw3e:latest
+```
+
 ## Requirements
 
 If you just to run the sample code on your own machine outside of any Docker container, you will need to install all the requirements yourself.
