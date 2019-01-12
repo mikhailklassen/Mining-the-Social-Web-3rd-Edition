@@ -109,3 +109,6 @@ USER root
 RUN chown $NB_UID:users /home/$NB_USER -R
 RUN chmod 755 /home/$NB_USER -R
 USER $NB_UID
+
+# CMD is required by Heroku
+CMD /opt/conda/bin/jupyter notebook --port=8888 --no-browser
