@@ -1,0 +1,6 @@
+# Build this image on Heroku
+build:
+  docker:
+    web: Dockerfile
+run:
+    web: /opt/conda/bin/jupyter notebook --port=8888 --no-browser
