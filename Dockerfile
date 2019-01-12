@@ -50,10 +50,12 @@ RUN conda install --quiet --yes \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
+RUN conda clean --all --yes --quiet
+
 # Pip install specific packages for MTSW3E
 RUN pip install --upgrade setuptools
 RUN pip install --upgrade pip
-RUN pip install -q python-instagram==1.3.2 \
+RUN pip install -q --no-cache-dir python-instagram==1.3.2 \
                    python3-linkedin==1.0.1 \
                    PyGithub==1.35 \
                    prettytable==0.7.2 \
@@ -77,8 +79,8 @@ RUN pip install -q python-instagram==1.3.2 \
                    flask==0.12.3 \
                    envoy==0.0.3
 
-RUN pip install -q charade
-RUN pip install -q boilerpipe3 
+RUN pip install -q --no-cache-dir charade
+RUN pip install -q --no-cache-dir boilerpipe3 
 
 # Import matplotlib the first time to build the font cache.
 ENV XDG_CACHE_HOME /home/$NB_USER/.cache/
