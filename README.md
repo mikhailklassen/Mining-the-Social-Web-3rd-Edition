@@ -10,9 +10,9 @@ There are several ways to get up and running with the sample code in MTSW, which
 
 [![Geting Started (Mac OS)](images/youtube_macos.png)](http://www.youtube.com/watch?v=OZunBKFIdLU)
 
-#### Windows
+#### Windows 10
 
-*Coming Soon!*
+[![Geting Started (Windows 10)](images/youtube_macos.png)](https://www.youtube.com/watch?v=Y04ka6XB6lM)
 
 ### Step 1: Cloning or Downloading the Repository
 
