@@ -54,7 +54,6 @@ RUN conda clean --all --yes --quiet
 
 # Pip install specific packages for MTSW3E
 RUN pip install --upgrade setuptools
-RUN pip install --upgrade pip
 RUN pip install -q --no-cache-dir python-instagram==1.3.2 \
                    python3-linkedin==1.0.1 \
                    PyGithub==1.35 \
