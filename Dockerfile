@@ -54,7 +54,6 @@ RUN conda clean --all --yes --quiet
 
 # Pip install specific packages for MTSW3E
 RUN pip install --upgrade setuptools
-RUN pip install --upgrade pip
 RUN pip install -q --no-cache-dir python-instagram==1.3.2 \
                    python3-linkedin==1.0.1 \
                    PyGithub==1.35 \
@@ -77,7 +76,8 @@ RUN pip install -q --no-cache-dir python-instagram==1.3.2 \
                    twitter-text==3.0 \
                    twitter==1.17.1 \
                    flask==0.12.3 \
-                   envoy==0.0.3
+                   envoy==0.0.3 \
+                   html5lib==1.0.1 
 
 RUN pip install -q --no-cache-dir charade
 RUN pip install -q --no-cache-dir boilerpipe3 
