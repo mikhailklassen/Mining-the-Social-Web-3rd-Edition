@@ -20,7 +20,9 @@ The easiest way to start playing with code right away is to use [Binder](https:/
 repo2docker https://github.com/mikhailklassen/Mining-the-Social-Web-3rd-Edition
 ```
 
-This will create a Docker container from the repository directly.
+This will create a Docker container from the repository directly. It takes a while to finish building the container, but once it's done, you will see a URL printed to screen. Copy and paste the URL into your browser.
+
+A longer set of instructions can be found [here](https://towardsdatascience.com/docker-without-the-hassle-b98447caedd8).
 
 ### Getting started on your own machine from source 
 
