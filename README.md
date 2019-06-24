@@ -10,6 +10,8 @@ The `notebooks` folder of this repository contains the latest bug-fixed sample c
 
 The easiest way to start playing with code right away is to use [Binder](https://mybinder.org). Binder is a service that takes a GitHub repository containing Jupyter Notebooks and spins up a cloud-based server to run them. You can start experimenting with the code without having to install anything on your machine. Click the badge above, or follow [this](https://mybinder.org/v2/gh/mikhailklassen/Mining-the-Social-Web-3rd-Edition/binder?filepath=notebooks%2F) link to get started right away.
 
+**NOTE**: Binder will not save your files on its servers. During your next session, it will be a completely fresh instantiation of this repository. If you need a more persistent solution, consider running the code on your own machine.
+
 ### Getting started on your own machine using Docker
 
 1. [Install Docker](https://www.docker.com/products/docker-desktop)
