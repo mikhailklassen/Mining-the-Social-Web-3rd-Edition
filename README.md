@@ -6,6 +6,8 @@ The `notebooks` folder of this repository contains the latest bug-fixed sample c
 
 ## Quickstart
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mikhailklassen/Mining-the-Social-Web-3rd-Edition/binder?filepath=notebooks%2F)
+
 There are several ways to get up and running with the sample code in MTSW, which we detail in this section, or you can follow along with the youtube video below:
 
 #### Mac OS
