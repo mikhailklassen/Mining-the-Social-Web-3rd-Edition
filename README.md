@@ -8,7 +8,9 @@ The `notebooks` folder of this repository contains the latest bug-fixed sample c
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mikhailklassen/Mining-the-Social-Web-3rd-Edition/binder?filepath=notebooks%2F)
 
-There are several ways to get up and running with the sample code in MTSW, which we detail in this section, or you can follow along with the youtube video below:
+The easiest way to start playing with code right away is to use [Binder](https://mybinder.org). Binder is a service that takes a GitHub repository containing Jupyter Notebooks and spins up a cloud-based server to run them. You can start experimenting with the code without having to install anything on your machine. Click the badge above, or follow [this](https://mybinder.org/v2/gh/mikhailklassen/Mining-the-Social-Web-3rd-Edition/binder?filepath=notebooks%2F) link to get started right away.
+
+There are several other ways to get up and running with the sample code in MTSW, which we detail in this section, or you can follow along with the youtube video below:
 
 #### Mac OS
 
@@ -123,7 +125,7 @@ docker run --rm -p 8888:8888 -v "$PWD"/notebooks:/home/jovyan/notebooks mtsw3e:l
 
 If you just to run the sample code on your own machine outside of any Docker container, you will need to install all the requirements yourself.
 
-Assuming you have Python 3.3+ installed, it is best practice to create a [virtual environment](https://docs.python.org/3/library/venv.html):
+Assuming you have Python 3.6+ installed, it is best practice to create a [virtual environment](https://docs.python.org/3/library/venv.html):
 ```
 python3 -m venv mtsw
 ```
@@ -138,10 +140,10 @@ Then use pip to install all requirements:
 pip install -r requirements.txt
 ```
 
-You will also need to install the [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), which is required by boilerpipe.
-
 If you wish to complete all the examples in Chapter 9, you will need to install [MongoDB](https://www.mongodb.com/).
 
 ## Contributing
 
 There are several ways in which you can contribute to the project. If you discover a bug in any of the code, the first thing to do is to create a new issue under the Issues tab of this repository. If you are a developer and would like to contribute a bug fix, please feel free to fork the repository and submit a pull request.
+
+The code is provided "as-is" and we make no guarantees that it is bug-free. Keep in mind that we access the APIs of various social media platforms and their APIs are subject to change. Since the start of this project, various social media platforms have tightened the permissions on their platform. Getting full use out of all the code in this book may require submitting an application the social media platform of your choice for approval. Despite these restrictions, we hope that the code still provides plenty of flexibility and opportunities to go deeper.
