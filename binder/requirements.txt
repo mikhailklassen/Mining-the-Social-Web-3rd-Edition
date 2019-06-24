@@ -48,7 +48,6 @@ nteract-on-jupyter==2.0.12
 numpy==1.16.3
 pamela==1.0.0
 pandas==0.24.2
-pandas==0.22.0
 pandocfilters==1.4.2
 parse==1.12.0
 parso==0.4.0
