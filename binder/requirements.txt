@@ -60,7 +60,7 @@ nbconvert==5.4.1
 nbformat==4.4.0
 networkx==1.11
 nltk==3.4.5
-notebook==5.7.8
+notebook==6.1.5
 nteract-on-jupyter==2.0.12
 numpy==1.16.3
 oauth2client==4.1.3
