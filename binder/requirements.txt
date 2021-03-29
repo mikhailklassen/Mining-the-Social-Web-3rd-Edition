@@ -83,7 +83,7 @@ py==1.8.0
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
 pyee==6.0.0
-Pygments==2.3.1
+Pygments==2.7.4
 pyparsing==2.4.0
 pyppeteer==0.0.25
 pyquery==1.4.0
