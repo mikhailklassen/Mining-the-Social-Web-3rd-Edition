@@ -113,7 +113,7 @@ tqdm==4.32.1
 traitlets==4.3.2
 twitter==1.18.0
 uritemplate==3.0.0
-urllib3==1.24.2
+urllib3==1.26.5
 w3lib==1.20.0
 wcwidth==0.1.7
 webencodings==0.5.1
