@@ -73,7 +73,7 @@ parse==1.12.0
 parso==0.4.0
 pexpect==4.7.0
 pickleshare==0.7.5
-Pillow==6.0.0
+Pillow==9.0.1
 pluggy==0.12.0
 prettytable==0.7.2
 prometheus-client==0.6.0
