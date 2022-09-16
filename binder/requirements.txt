@@ -51,7 +51,7 @@ jupyterlab-server==0.2.0
 kiwisolver==1.1.0
 lxml==4.3.3
 mailbox==0.4
-Mako==1.0.9
+Mako==1.2.2
 MarkupSafe==1.1.1
 matplotlib==3.1.0
 mistune==0.8.4
